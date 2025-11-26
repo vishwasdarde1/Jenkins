@@ -1,22 +1,22 @@
 pipeline{
     agent any
     stages {
-        stage (level1) {
+        stage (level10) {
             steps {
                 echo "hello, this is first jenkins pipeline, cloned from Github."
             }
         }
-        stage (level2) {
+        stage (level20) {
             steps {
                 echo "hello,Ok vishwas. is it correct?"
             }
         }
-        stage (level3){
+        stage (level30){
             steps{
                 echo "Yes james, Do you have any sujjestions on this?"
             }
         }
-        stage (level4){
+        stage (level40){
             steps{
                 echo "No vishwas, I was just asking, thank you."
             }
